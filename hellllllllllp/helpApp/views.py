@@ -7,6 +7,7 @@ from rest_framework.decorators import api_view, APIView, permission_classes
 from django.http import Http404
 from rest_framework import generics, mixins
 from rest_framework.permissions import IsAuthenticated, IsAdminUser
+from .permissions  import IsAdminUsername
 
 @api_view(['GET', 'POST'])
 @permission_classes([IsAuthenticated])
