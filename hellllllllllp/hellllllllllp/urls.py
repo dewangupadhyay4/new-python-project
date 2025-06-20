@@ -15,8 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from rest_framework.routers import DefaultRouter
-from helpApp.views import StudentViewSet
+# from rest_framework.routers import DefaultRouter
+# from helpApp.views import StudentViewSet
 
 # router=DefaultRouter()
 # router.register('students',StudentViewSet)
